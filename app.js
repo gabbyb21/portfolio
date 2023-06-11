@@ -23,7 +23,7 @@ $(() => {
   })
 
   $('.body').click(function () {
-    $(this).css({'background-color': 'black', 'color': 'white'});
+    $(this).css({'background-color': '#2F4F4F', 'color': 'white'});
   })
 
 });
