@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav {
+  display: inline;
+  color: #D3D3D3;
+  font-family: 'Karla', sans-serif;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+};
+
+.nav-right {
+  float: right;
+  width: 50%;
+
+}
+
+a.homepage {
+  float: left;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+
+ul.child {
+  display: none;
+}
+
+a {
+  float: right;
+  cursor: pointer;
+  width: 25%;
+  text-decoration: none;
+  
+}
+
+.body {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 75px;
+  font-family: 'Karla', sans-serif;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  background-color: #2F4F4F;
+  color: white;
+  
+}
+
+
+/* .container {
+  position: absolute;
+  width: 100%;
+} */
+
+.project1 {
+  margin: 0 auto;
+  width: 50%;
+  height: 225px;
+  background-image: url('images/project1.png');
+  background-size: 600px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  list-style-type: none;
+  font-family: 'Karla', sans-serif;
+}
+
+.project2 {
+  margin: 0 auto;
+  width: 50%;
+  height: 225px;
+  background-image: url('images/project2.png');
+  background-size: 600px;
+  margin-bottom: 25px;
+  list-style-type: none;
+  font-family: 'Karla', sans-serif;
+}
+
+.project3 {
+  margin: 0 auto;
+  width: 50%;
+  height: 225px;
+  background-image: url('images/project3.png');
+  background-size: 600px;
+  list-style-type: none;
+  font-family: 'Karla', sans-serif;
+  border-bottom: 25px;
+}

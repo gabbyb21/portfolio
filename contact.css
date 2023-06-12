@@ -50,19 +50,18 @@ a {
   
 }
 
-.about-container {
-  font-family: 'Karla', sans-serif;
+.contactform {
+  display: block;
   text-align: center;
+}
+input[type=text] {
+  /* display: inline-block; */
+  width: 25%;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
   
-}
-.about-img {
-  float: left;
-  margin: 150px 25px 25px 150px;
-}
-p {
-  float: right;
-  text-align: justify;
-  width: 50%;
-  margin-top: 150px;
-  margin-right: 25px;
 }
