@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
 .nav {
   display: inline;
@@ -58,11 +62,15 @@ p {
   
 }
 
+.projectcontainer {
+  box-sizing: border-box;
+}
+
 #project1 {
   float: left;
-  width: 25%;
+  width: 35%;
   padding: 10px;
-  margin: 10px 5px;
+  margin: 100px 5px 10px 100px;
   height: 500px;
   background-color: #9370DB;
   /* background-image: url('images/project1.png'); */
@@ -75,7 +83,7 @@ p {
   float: right;
   width: 35%;
   padding: 10px;
-  margin: 50px 25px;
+  margin: 50px 75px 25px 25px;
   height: 300px;
   background-color: #4169E1;
   background-size: cover;
@@ -83,10 +91,10 @@ p {
 }
 
 #project3 {
-  position: absolute;
-  bottom: 0;
+  position: sticky;
+  bottom: position;
   background-color: #FFDAB9;
-  width: 30%;
+  width: 35%;
   height: 250px;
   margin: 25px;
   background-size: cover;

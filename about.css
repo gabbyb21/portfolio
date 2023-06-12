@@ -53,6 +53,7 @@ a {
 .about-container {
   font-family: 'Karla', sans-serif;
   text-align: center;
+  box-sizing: border-box;
   
 }
 .about-img {
