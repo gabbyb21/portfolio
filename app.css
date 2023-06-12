@@ -25,9 +25,14 @@ a.homepage {
   text-decoration: none;
 }
 
+/* .dropdowncontainer {
+  position: relative;
+  display: inline-block;
+} */
 
 ul.child {
   display: none;
+
 }
 
 a {
